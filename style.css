@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('static/HankenGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('static/HankenGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700; /* or 700, 800 */
+    background-color: #ccffff;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 170px); /* 2 rows, each with equal height */
+    grid-column-gap: 0px; /* add this line to set a gap of 10 pixels between columns */
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .circle {
+    margin-top: 75px;
+    margin-left: 50px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    color: white;
+    background: linear-gradient(to bottom, rgb(13, 1, 148) 55%, rgba(255, 255, 255, 0) 100%);
+
+  }
+  
+  .text1 {
+    position: absolute;
+    top: 25%;
+    left: 32%; 
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+  
+
+  }
+  .item1 {
+    border: 1px solid transparent;
+    border-radius: 8%;
+    width: 320px;
+    height: 450px;
+    background-color: blue;
+
+  }
+
+  .item2 {
+
+  }
+  
+  .your-result { 
+    position: absolute;
+    font-size: 20px;
+    color: grey ;
+    margin-top: 30px;
+    margin-left: 90px ;
+
+  }
